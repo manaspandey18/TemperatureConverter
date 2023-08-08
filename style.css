@@ -1,0 +1,57 @@
+body {
+    margin-top: 120px;
+    text-align: center;
+    background: #400c63;
+}
+
+.container {
+    padding-top: 50px;
+    height: 550px;
+    width: 64%;
+    border-radius: 30px 140px 30px 140px;
+    background: linear-gradient(90deg, #db4453, #0938ba);
+}
+
+h1 {
+    padding-bottom: 2rem;
+    font-size: 50px;
+    color: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+input[type=number] {
+    cursor: pointer;
+}
+
+#input-celsius {
+    background-color: white;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+#input-fahrenheit {
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+
+.form-padding {
+    padding: 2rem 1rem;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(151, 151, 151) !important;
+}
+
+::-moz-placeholder {
+    color: rgb(151, 151, 151) !important;
+}
+
+:-ms-input-placeholder {
+    color: rgb(151, 151, 151) !important;
+}
+
+:-moz-placeholder {
+    color: rgb(151, 151, 151) !important;
+}
